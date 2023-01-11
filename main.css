@@ -1,0 +1,42 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav-link{
+    cursor: pointer;
+}
+.live-game{
+    align-items: center;
+    background-color: #e4e4e4;
+    border-radius: 10px;
+    border: 2px solid #1f1f1f;
+    box-shadow: 5px 5px 4px #ababab;
+    display: flex;
+    font-size: 1.5rem;
+    justify-content: space-around;
+    margin: 15px;
+    padding: 20px;
+    text-decoration: none;
+}
+
+.num{
+    font-size: 2.5rem;
+}
+
+.hidden{
+    display: none;
+}
+
+@media (max-width: 550px) {
+    
+    .live-game{
+        font-size: 1rem;
+    }
+    .num{
+        font-size: 1.5rem;
+    }
+}
+span{
+    margin: 15px;
+}
+
